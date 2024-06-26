@@ -181,7 +181,7 @@ function checkUI() {
 
   formBtn.innerHTML = '<i class="fa-solid fa-plus"><i>    Adauga produsul';
   formBtn.style.backgroundColor = '#333';
-  formBtn.style.fontFamily = 'cursive';
+  formBtn.style.fontFamily = 'sans-serif';
 
   isEditMode = false;
 }

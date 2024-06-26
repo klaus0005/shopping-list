@@ -179,9 +179,9 @@ function checkUI() {
     itemFilter.style.display = 'block';
   }
 
-  formBtn.innerHTML = '<i class="fa-solid fa-plus"><i>    Adauga produsul';
+  formBtn.innerHTML = '<i class="fa-solid fa-plus"><i> Adaugă';
   formBtn.style.backgroundColor = '#333';
-  formBtn.style.fontFamily = 'cursive';
+  formBtn.style.fontFamily = 'sans-serif';
 
   isEditMode = false;
 }
