@@ -18,7 +18,7 @@ function onAddItemSubmit(e) {
 
   //Validate input
   if (newItem === '') {
-    alert('Vă rugăm adăugați un produs');
+    alert('Please add an item');
     return;
   }
 
@@ -32,7 +32,7 @@ function onAddItemSubmit(e) {
     isEditMode = false;
   } else {
     if (checkIfItemExist(newItem)) {
-      alert('Produsul există deja');
+      alert('That item already exists!');
       return;
     }
   }
@@ -180,7 +180,7 @@ function checkUI() {
   }
 
   formBtn.innerHTML = '<i class="fa-solid fa-plus"><i> Add item';
-  formBtn.style.backgroundColor = '#333';
+  formBtn.style
 
   isEditMode = false;
 }

@@ -18,7 +18,7 @@ function onAddItemSubmit(e) {
 
   //Validate input
   if (newItem === '') {
-    alert('Vă rugăm adăugați un produs');
+    alert('Vă rugăm ada');
     return;
   }
 
@@ -32,7 +32,7 @@ function onAddItemSubmit(e) {
     isEditMode = false;
   } else {
     if (checkIfItemExist(newItem)) {
-      alert('Produsul există deja');
+      alert('That item already exists!');
       return;
     }
   }
